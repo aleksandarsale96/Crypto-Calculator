@@ -1,0 +1,107 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+h1 {
+  text-align: center;
+  font-size: 60px;
+  color: #26a69a;
+  cursor: default;
+}
+h1:hover {
+  color: #429b92;
+  transition: all linear 0.5s;
+
+}
+
+
+
+.inputHolder {
+  width: 200px !important;
+  text-align: right;
+  padding-right: 30px !important;
+  position: relative;
+  
+}
+
+.labelHolder {
+  color: #fff;
+  background-color: #429b92;
+  border-radius: 10px;
+}
+.form-wrapper { 
+  max-width: 700px; 
+  margin: auto; 
+}
+
+.tsf::after {
+  content: 'TSF';
+  position: absolute;
+  right: 10%;
+  top: 54%;
+  
+}
+.cpu::after {
+  content: 'Mh';
+  position: absolute;
+  right: 10%;
+  top: 54%;
+  
+}
+.net::after {
+  content: 'Gh';
+  position: absolute;
+  right: 10%;
+  top: 54%;
+  
+}
+.dolar::after {
+  content: '$';
+  position: absolute;
+  right: 10%;
+  top: 54%;
+  
+}
+.blockTime::after {
+  content: 'sec';
+  position: absolute;
+  right: 10%;
+  top: 54%;
+  
+}
